@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01767555-c07e-440e-8004-df5e709309bb" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/robot.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.spec.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/robotFactory/src/app/mock-robots.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -23,7 +20,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotFactory/src/app/app.module.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="272">
@@ -31,6 +28,15 @@
               <folding>
                 <element signature="e#0#58#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mock-robots.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotFactory/src/app/mock-robots.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="12" column="159" lean-forward="true" selection-start-line="12" selection-start-column="159" selection-end-line="12" selection-end-column="159" />
             </state>
           </provider>
         </entry>
@@ -56,8 +62,8 @@
       <file leaf-file-name="robots.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+            <state relative-caret-position="272">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="e#0#50#0" expanded="true" />
               </folding>
@@ -74,11 +80,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="robots.component.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="robots.component.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            <state relative-caret-position="340">
+              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="robots.component.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
@@ -95,9 +110,11 @@
         <option value="$PROJECT_DIR$/robotFactory/src/styles.css" />
         <option value="$PROJECT_DIR$/robotFactory/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/robotFactory/src/app/robot.ts" />
+        <option value="$PROJECT_DIR$/robotFactory/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/robotFactory/src/app/mock-robots.ts" />
+        <option value="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css" />
         <option value="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts" />
         <option value="$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html" />
-        <option value="$PROJECT_DIR$/robotFactory/src/app/app.module.ts" />
       </list>
     </option>
   </component>
@@ -1371,7 +1388,9 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -1458,22 +1477,30 @@
       <option name="project" value="LOCAL" />
       <updated>1525283549674</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed step 3 of the heroes ng tutorial">
+      <created>1525541987033</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1525541987034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4800000" />
+    <option name="totallyTimeSpent" value="10215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" order="7" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2528978" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.28050053" />
+      <window_info anchor="bottom" id="Version Control" visible="true" weight="0.28050053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" x="1917" y="757" width="1920" height="324" id="Terminal" weight="0.3388947" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -1510,7 +1537,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finished steps 1 + 2 in the tutorial" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished steps 1 + 2 in the tutorial" />
+    <MESSAGE value="completed step 3 of the heroes ng tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed step 3 of the heroes ng tutorial" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/robotFactory/.gitignore">
@@ -1544,27 +1572,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#50#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotFactory/src/app/app.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -1575,6 +1586,37 @@
           <folding>
             <element signature="e#0#58#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/mock-robots.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="159" lean-forward="true" selection-start-line="12" selection-start-column="159" selection-end-line="12" selection-end-column="159" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/src/app/robots/robots.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
         </state>
       </provider>
     </entry>

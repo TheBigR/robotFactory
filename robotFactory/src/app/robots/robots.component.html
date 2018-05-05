@@ -1,13 +1,26 @@
-<div>
+
+<div *ngIf="selectedRobot">
+  <h2>{{selectedRobot.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{selectedRobot.id}}</div>
+  <div><span>branch name: </span>{{selectedRobot.branchName}}</div>
+  <div><span>manager name: </span>{{selectedRobot.managerName}}</div>
+  <div><span>employees: </span>{{selectedRobot.employees}}</div>
+  <div><span>city: </span>{{selectedRobot.city}}</div>
+  <div><span>Cooridnates: Lon:</span>{{selectedRobot.coordinates.lon}}<span> Lat: </span>{{selectedRobot.coordinates.lat}}</div>
+  <br>
   <label> name:
-    <input [(ngModel)]="robot.name" placeholder="name">
+    <input [(ngModel)]="selectedRobot.name" placeholder="name">
   </label>
 </div>
-<h2>{{robot.name | uppercase}} Details</h2>
-<div><span>id: </span>{{robot.id}}</div>
-<div><span>branch name: </span>{{robot.branchName}}</div>
-<div><span>manager name: </span>{{robot.managerName}}</div>
-<div><span>employees: </span>{{robot.employees}}</div>
-<div><span>city: </span>{{robot.city}}</div>
-<div><span>Cooridnates: Lon:</span>{{robot.coordinates.lon}}<span> Lat: </span>{{robot.coordinates.lat}}</div>
+
+<h2>My Robots</h2>
+<ul class="robots">
+  <li *ngFor="let robot of robots"
+      [class.selected]="robot === selectedRobot"
+      (click)="onSelect(robot)" >
+      <span class="badge">{{robot.id}}</span> {{robot.name}}
+  </li>
+</ul>
+
+
 

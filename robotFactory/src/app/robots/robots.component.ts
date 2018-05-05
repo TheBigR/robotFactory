@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {Robot} from '../robot';
+import {ROBOTS} from "../mock-robots";
 
 @Component({
   selector: 'app-robots',
@@ -8,15 +9,14 @@ import {Robot} from '../robot';
 })
 export class RobotsComponent implements OnInit {
 
-  robot: Robot = {
-    name: 'omer Adam',
-    id: 1,
-    branchName: 'Wcc',
-    managerName: 'donald',
-    employees: 4,
-    city: 'new york',
-    coordinates: {lat: 13, lon: 44}
-  };
+  robots = ROBOTS;
+
+  selectedRobot: Robot;
+
+  onSelect(robot: Robot): void {
+    this.selectedRobot = robot;
+}
+
   constructor() { }
 
   ngOnInit() {
