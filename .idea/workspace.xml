@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01767555-c07e-440e-8004-df5e709309bb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotFactory/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/app/app.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/robotFactory/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/robotFactory/src/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +68,8 @@
       <file leaf-file-name="styles.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/robotFactory/src/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+            <state relative-caret-position="272">
+              <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -170,26 +166,34 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1525282665144</updated>
-      <workItem from="1525282666506" duration="712000" />
+      <workItem from="1525282666506" duration="1144000" />
     </task>
+    <task id="LOCAL-00001" summary="finished steps 1 + 2 in the tutorial">
+      <created>1525283549674</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1525283549674</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="712000" />
+    <option name="totallyTimeSpent" value="1144000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24553572" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24553572" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" weight="0.3294893" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" weight="0.3294893" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3294893" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.63261944" />
+      <window_info anchor="bottom" id="Terminal" weight="0.63261944" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -211,6 +215,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished steps 1 + 2 in the tutorial" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished steps 1 + 2 in the tutorial" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/robotFactory/.gitignore">
@@ -250,8 +258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robotFactory/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="272">
+          <caret line="16" column="2" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
         </state>
       </provider>
     </entry>
