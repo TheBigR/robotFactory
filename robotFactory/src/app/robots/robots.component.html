@@ -1,17 +1,4 @@
 
-<div *ngIf="selectedRobot">
-  <h2>{{selectedRobot.name | uppercase}} Details</h2>
-  <div><span>id: </span>{{selectedRobot.id}}</div>
-  <div><span>branch name: </span>{{selectedRobot.branchName}}</div>
-  <div><span>manager name: </span>{{selectedRobot.managerName}}</div>
-  <div><span>employees: </span>{{selectedRobot.employees}}</div>
-  <div><span>city: </span>{{selectedRobot.city}}</div>
-  <div><span>Cooridnates: Lon:</span>{{selectedRobot.coordinates.lon}}<span> Lat: </span>{{selectedRobot.coordinates.lat}}</div>
-  <br>
-  <label> name:
-    <input [(ngModel)]="selectedRobot.name" placeholder="name">
-  </label>
-</div>
 
 <h2>My Robots</h2>
 <ul class="robots">
@@ -22,5 +9,6 @@
   </li>
 </ul>
 
+<app-robot-detail [robot]="selectedRobot"></app-robot-detail>
 
 

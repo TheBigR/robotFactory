@@ -1,0 +1,13 @@
+<div *ngIf="robot">
+  <h2>{{robot.name | uppercase}} Details</h2>
+  <div><span>id: </span>{{robot.id}}</div>
+  <div><span>branch name: </span>{{robot.branchName}}</div>
+  <div><span>manager name: </span>{{robot.managerName}}</div>
+  <div><span>employees: </span>{{robot.employees}}</div>
+  <div><span>city: </span>{{robot.city}}</div>
+  <div><span>Cooridnates: Lon:</span>{{robot.coordinates.lon}}<span> Lat: </span>{{robot.coordinates.lat}}</div>
+  <br>
+  <label> name:
+    <input [(ngModel)]="robot.name" placeholder="name">
+  </label>
+</div>
