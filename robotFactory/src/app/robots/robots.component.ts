@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {Robot} from '../robot';
-import {ROBOTS} from "../mock-robots";
+//import {ROBOTS} from '../mock-robots';
+import {RobotService} from "../robot.service";
+
 
 @Component({
   selector: 'app-robots',
@@ -9,7 +11,7 @@ import {ROBOTS} from "../mock-robots";
 })
 export class RobotsComponent implements OnInit {
 
-  robots = ROBOTS;
+  robots: Robot[];
 
   selectedRobot: Robot;
 
@@ -17,9 +19,14 @@ export class RobotsComponent implements OnInit {
     this.selectedRobot = robot;
 }
 
-  constructor() { }
+  constructor(private robotService: RobotService) { }
+
+  getRobots(): void {
+    this.robotService.getRobots().subscribe(robots => this.robots = robots);
+  }
 
   ngOnInit() {
+    this.getRobots();
   }
 
 
