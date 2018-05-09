@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="01767555-c07e-440e-8004-df5e709309bb" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
+    <ignored path=".idea/" />
+    <ignored path="package-lock.json" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1391,43 +1394,6 @@
               <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
               <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="robotFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robotFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robotFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="messages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robotFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="robot-detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="robotFactory" type="b2602c69:ProjectViewProjectNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="robotFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="robots" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -1503,14 +1469,29 @@
       <option name="project" value="LOCAL" />
       <updated>1525682266099</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="middle of 2nd service">
+      <created>1525846248347</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1525846248347</updated>
+    </task>
+    <task id="LOCAL-00007" summary="trying to ignore /.idea">
+      <created>1525847700948</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1525847700948</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22743000" />
+    <option name="totallyTimeSpent" value="23846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TypeScript" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24553572" />
@@ -1562,7 +1543,8 @@
     <MESSAGE value="completed step 4 of the heroes ng tutorial" />
     <MESSAGE value="fixed 1st service (observable)" />
     <MESSAGE value="middle of 2nd service" />
-    <option name="LAST_COMMIT_MESSAGE" value="middle of 2nd service" />
+    <MESSAGE value="trying to ignore /.idea" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to ignore /.idea" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/robotFactory/.gitignore">
@@ -1680,11 +1662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/robotFactory/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/robotFactory/src/styles.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="58">
@@ -1714,11 +1691,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/robotFactory/src/app/app.component.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/robotFactory/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1428" />
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/robotFactory/src/app/app.component.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -1779,6 +1751,19 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="14" selection-start-line="2" selection-start-column="14" selection-end-line="2" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/robotFactory/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
         </state>
       </provider>
     </entry>
