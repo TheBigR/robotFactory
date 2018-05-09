@@ -15,4 +15,9 @@ export class RobotService {
     return of (ROBOTS);
   }
 
+  getRobot(id: number): Observable<Robot> {
+    this.messageService.add(`RobotService: fetched robot id=${id}`);
+    return of(ROBOTS.find(robot => robot.id === id));
+  }
+
 }

@@ -13,12 +13,6 @@ export class RobotsComponent implements OnInit {
 
   robots: Robot[];
 
-  selectedRobot: Robot;
-
-  onSelect(robot: Robot): void {
-    this.selectedRobot = robot;
-}
-
   constructor(private robotService: RobotService) { }
 
   getRobots(): void {
@@ -28,6 +22,5 @@ export class RobotsComponent implements OnInit {
   ngOnInit() {
     this.getRobots();
   }
-
 
 }
